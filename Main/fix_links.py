@@ -70,6 +70,29 @@
 #---------------------------------------------------------------
 
 
+# import re
+
+# # Open the input file in read mode
+# with open('obsidian.md', 'r') as file:
+#     # Read the contents of the file into a string
+#     contents = file.read()
+
+# # Use a regular expression to find all instances of the pattern "![](file_name)"
+# pattern = r'!\[\]\(([\w\d_.]+)\)'
+# matches = re.findall(pattern, contents)
+
+# # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+# for match in matches:
+#     replacement = f'![](z/{match})'
+#     contents = contents.replace(f'![]({match})', replacement)
+
+# # Open the output file in write mode
+# with open('output.md', 'w') as file:
+#     # Write the modified contents to the output file
+#     file.write(contents)
+
+
+
 import re
 
 # Open the input file in read mode
@@ -86,7 +109,10 @@ for match in matches:
     replacement = f'![](z/{match})'
     contents = contents.replace(f'![]({match})', replacement)
 
-# Open the output file in write mode
-with open('output.md', 'w') as file:
-    # Write the modified contents to the output file
+# Open the input file in write mode
+with open('input.md', 'w') as file:
+    # Write the modified contents back to the input file
     file.write(contents)
+
+
+#---------------------------------------------------------------

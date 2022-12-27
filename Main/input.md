@@ -14,5 +14,3 @@ A cute cow
 ![](z/cow123.png)
 
 
-
-A cute zebra
