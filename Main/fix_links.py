@@ -110,7 +110,7 @@ for match in matches:
     contents = contents.replace(f'![]({match})', replacement)
 
 # Open the input file in write mode
-with open('input.md', 'w') as file:
+with open('obsidian.md', 'w') as file:
     # Write the modified contents back to the input file
     file.write(contents)
 

@@ -11,8 +11,12 @@
             "id": "8a4ed9de7de38730",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Main/obsidian.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main/obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main/obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main/obsidian.md"
+              }
             }
           },
           {
@@ -151,6 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Main/obsidian.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,17 +206,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "21b9e433a57a35e9",
+  "active": "8a4ed9de7de38730",
   "lastOpenFiles": [
+    "Main/z/cow123.png",
+    "Main/obsidian.md",
+    "Obsidian/notes.md",
     "Obsidian/z/cat_and_dog.png",
     "Obsidian/z/cow123.png",
-    "Obsidian/notes.md",
     "Thoughts/Thoughts.md",
     "Main/z/Screenshot 2022-12-27 at 2.15.20 AM.png",
     "Python Script (experimental)/Notes_numpy-arrays.md",
-    "Numpy/14.NumPy Arrays/main_notes/Notes_numpy-arrays.md",
-    "README.md",
-    "Numpy/14.NumPy Arrays/confusionn/Material to Revist.md",
-    "Numpy/14.NumPy Arrays/main_notes/z/Screenshot 2022-12-26 at 2.04.53 PM.png"
+    "Numpy/14.NumPy Arrays/main_notes/Notes_numpy-arrays.md"
   ]
 }
